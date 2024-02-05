@@ -74,8 +74,8 @@ canvas = Canvas(width=300 , height=300 , highlightthickness=0 , bg="white")
 canvas.grid(row=1 , column=1 , columnspan=2 , pady= 30)
 quiz_text = canvas.create_text(150 , 150 , text="STATRING QUIZ" , fill="black" , font=("Calibri" , 20 , "bold") , width=280)
 
-true_img = PhotoImage(file="C:/Users/Mayank Aggarwal/Software Development/MAYANK/PYTHON PROGRAMMING/API/QUIZZLER APP/images/true.png")
-false_img = PhotoImage(file="C:/Users/Mayank Aggarwal/Software Development/MAYANK/PYTHON PROGRAMMING/API/QUIZZLER APP/images/false.png")
+true_img = PhotoImage(file="true.png")
+false_img = PhotoImage(file="false.png")
 
 true_button = Button(image=true_img , highlightthickness=0 , command=true , bd=5)
 false_button = Button(image=false_img , highlightthickness=0 , command=false , bd=5)
