@@ -24,8 +24,8 @@ class QuizInterface:
         self.canvas.grid(row=1 , column=1 , columnspan=2 , pady= 30)
         self.quiz_text = self.canvas.create_text(150 , 150 , text="STATRING QUIZ" , fill="black" , font=("Calibri" , 20 , "bold") , width=280)
 
-        self.true_img = PhotoImage(file="C:/Users/Mayank Aggarwal/Software Development/MAYANK/PYTHON PROGRAMMING/API/QUIZZLER APP/images/true.png")
-        self.false_img = PhotoImage(file="C:/Users/Mayank Aggarwal/Software Development/MAYANK/PYTHON PROGRAMMING/API/QUIZZLER APP/images/false.png")
+        self.true_img = PhotoImage(file="true.png")
+        self.false_img = PhotoImage(file="false.png")
 
         self.true_button = Button(image= self.true_img , highlightthickness=0 , command= self.true , bd=5)
         self.false_button = Button(image= self.false_img , highlightthickness=0 , command= self.false , bd=5)
